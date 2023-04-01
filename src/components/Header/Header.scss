@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Courgette&family=Indie+Flower&family=Kalam:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.ba-img{
+    
+    background-image: url('https://www.ekko-wp.com/wp-content/uploads/sites/3/2019/04/jewelry2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    .headline{
+       
+        padding-top: 236px;
+        padding-left: 66px;
+        
+        h2{
+            color: #fff;
+            width: 300px;
+            font-weight: 400;
+            font-family: Amiri;
+            font-size: 60px;
+            line-height: 58px;
+            letter-spacing: -1px;
+
+        }
+        p{
+            font-size: 14px;
+            font-family: Amiri;
+            color: #fff;
+            width: 300px;
+
+        }
+    }
+}
+    .top-header{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        left: 126px;
+        padding-top: 10px;
+        
+        
+       
+        .left-info{
+            ul {
+                display: flex;
+                gap: 10px;
+            }
+            li{
+        
+            }
+           a{
+            text-decoration: none;
+        
+           }
+           span{
+            padding-left: 10px;
+            color: #fff;
+           }
+        }
+    
+        .social-icon{
+            ul{
+                display: flex;
+                gap: 20px;
+    
+            }
+            li{
+                
+    
+            }
+            a{
+                color: #fff;
+    
+            }
+            a:hover{
+                color: #ffdd33;
+                
+            }
+            
+    
+        }
+        .divider{
+            width: 100%;
+            height: 0.5px;
+            background-color: #555;
+            
+        }
+    
+    }
+
+
+
+
+.main-header{
+    padding: 20px 150px;
+    
+    
+
+    .logo{
+        position: relative;
+        right: 90px;
+        h2{
+            font-weight: 400;
+            font-size: 22px;
+            font-family: 'Amiri', serif;
+            color: #fff;
+
+        }
+    }
+    .menu{
+        position: relative;
+        top: 10px;
+        right: 120px;
+        ul {
+            display: flex;
+            gap: 20px;
+
+        }
+        li{
+            font-family: 'Amiri', serif;
+           
+
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Amiri', serif;
+            font-weight: 400;
+          font-size: 14px;
+         text-transform: uppercase;
+         display: flex;
+         gap: 5px;
+
+        }
+
+        a:hover{
+            color: #ffdd33;
+        }
+    }
+
+    .buttons{
+        text-align: right;
+    // margin-right: 64px;
+        .baton{
+            background-color: #ffdd33;
+            padding: 15px 40px;
+            font-weight: 400;
+            color: #000000;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Amiri', serif;
+            border: 2px solid #FFDD33;
+            position: relative;
+            left: 53px;
+          
+        }
+        .baton:hover{
+            background-color: aliceblue;
+            color: black;
+            border-color: aliceblue;
+        }
+    }
+}
+

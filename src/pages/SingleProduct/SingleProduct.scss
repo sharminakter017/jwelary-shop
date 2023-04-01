@@ -1,0 +1,24 @@
+
+.single-product-pages{
+    padding: 100px 0;
+    .product-details{
+        h2{
+            text-align: left;
+            font-family: Poppins;
+            font-weight: 900;
+            font-size: 50px;
+        }
+        .regular-price{
+            font-size: 40px;
+            color: #777;
+            text-decoration: line-through;
+            margin-right: 20px;
+
+        }
+        .sale-price{
+            font-size: 40px;
+            color: black;
+
+        }
+    }
+}
